@@ -1,0 +1,36 @@
+2025-04-10 12:10:36,123 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-04-10 12:10:36,125 - ERROR - Error procesando factura1.jpeg: Error code: 400 - {'error': {'message': "Invalid value: 'image_url'. Supported values are: 'system', 'assistant', 'user', 'function', 'tool', and 'developer'.", 'type': 'invalid_request_error', 'param': 'messages[1].role', 'code': 'invalid_value'}}
+2025-04-10 12:10:38,124 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-04-10 12:10:38,128 - ERROR - Error procesando factura2.jpeg: Error code: 400 - {'error': {'message': "Invalid value: 'image_url'. Supported values are: 'system', 'assistant', 'user', 'function', 'tool', and 'developer'.", 'type': 'invalid_request_error', 'param': 'messages[1].role', 'code': 'invalid_value'}}
+2025-04-10 14:14:53,696 - INFO - Procesando archivo: factura1.jpeg
+2025-04-10 14:15:05,128 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-10 14:15:05,154 - ERROR - JSON inválido en factura1.jpeg: Expecting property name enclosed in double quotes: line 3 column 20 (char 54)
+2025-04-10 14:15:05,154 - INFO - Procesando archivo: factura2.jpeg
+2025-04-10 14:15:17,425 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-10 14:15:17,456 - INFO - Factura guardada: factura2.jpeg
+2025-04-10 14:15:17,488 - INFO - Excel exportado a: C:\Users\usuario\Desktop\Proyecto IA+PYTHON+POWER BI\Facturas\facturas.xlsx
+2025-04-10 14:32:11,426 - INFO - Procesando archivo: hla.jpeg
+2025-04-10 14:32:23,640 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-10 14:32:23,655 - ERROR - JSON inválido en hla.jpeg: Expecting property name enclosed in double quotes: line 3 column 20 (char 54)
+2025-04-10 14:32:51,771 - INFO - Procesando archivo: factura1.jpeg
+2025-04-10 14:33:02,738 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-10 14:33:02,766 - INFO - Factura guardada: factura1.jpeg
+2025-04-10 14:33:02,766 - INFO - Procesando archivo: factura2.jpeg
+2025-04-10 14:33:17,688 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-10 14:33:17,715 - INFO - Factura guardada: factura2.jpeg
+2025-04-10 14:33:17,755 - INFO - Excel exportado a: C:\Users\usuario\Desktop\Proyecto IA+PYTHON+POWER BI\Facturas\x2_facturas.xlsx
+2025-04-11 09:15:34,985 - INFO - Procesando archivo: factura1.jpeg
+2025-04-11 09:15:46,593 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-11 09:15:46,605 - ERROR - Error procesando factura1.jpeg: table x2 has no column named coste_total
+2025-04-11 09:15:46,605 - INFO - Procesando archivo: factura2.jpeg
+2025-04-11 09:16:00,620 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-11 09:16:00,635 - ERROR - Error procesando factura2.jpeg: table x2 has no column named coste_total
+2025-04-11 12:47:21,237 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-11 12:47:31,875 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-11 12:47:43,340 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-11 12:47:55,528 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-11 12:48:00,143 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-11 12:48:07,030 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-11 12:48:16,333 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-11 12:48:21,822 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-11 12:48:27,928 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
